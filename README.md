@@ -1,2 +1,1 @@
-# GP
-GP method based on EPANET MATLAB TOOLKIT 2.18
+A new linearization based state estimation of water distribution network

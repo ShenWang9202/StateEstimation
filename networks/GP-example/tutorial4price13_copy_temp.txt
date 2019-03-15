@@ -1,0 +1,25 @@
+  Page 1                                    Sat Oct 27 17:37:28 2018
+
+  ******************************************************************
+  *                           E P A N E T                          *
+  *                   Hydraulic and Water Quality                  *
+  *                   Analysis for Pipe Networks                   *
+  *                         Version 2.1                            *
+  ******************************************************************
+  
+  Analysis begun Sat Oct 27 17:37:28 2018
+
+   
+  Hydraulic Status:
+  -----------------------------------------------------------------------
+     0:00:00: Balancing the network:
+              Trial  1: relative flow change = 0.710972
+              Trial  2: relative flow change = 0.356570
+              Trial  3: relative flow change = 0.098778
+              Trial  4: relative flow change = 0.006682
+              Trial  5: relative flow change = 0.000031
+              Trial  6: relative flow change = 0.000000
+     0:00:00: Balanced after 6 trials
+     0:00:00: Reservoir 1 is emptying
+     0:00:00: Tank 8 is filling at 8.00 ft
+   

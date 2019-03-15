@@ -1,0 +1,159 @@
+[TITLE]
+
+[JUNCTIONS]
+ 2                                   213.3600
+ 3                                   216.4080
+ 4                                   213.3600
+ 5                                   198.1200
+ 6                                   213.3600
+ 7                                   213.3600
+
+[RESERVOIRS]
+ 1                                   213.3600 
+
+[TANKS]
+ 8                                   252.9840       1.2192       0.0000       6.0960     152.4000       0.0000 
+
+[PIPES]
+ 1                               2                               3                                   914.4000     355.6000     100.0000       0.0000 
+ 2                               3                               4                                  1524.0000     203.2000     100.0000       0.0000 
+ 3                               4                               5                                  1524.0000     152.4000     100.0000       0.0000 
+ 4                               3                               7                                  1524.0000     304.8000     100.0000       0.0000 
+ 5                               4                               6                                  1524.0000     203.2000     100.0000       0.0000 
+ 6                               7                               6                                  1524.0000     203.2000     100.0000       0.0000 
+ 7                               5                               6                                  2133.6000     152.4000     100.0000       0.0000 
+ 8                               7                               8                                  2133.6000     254.0000     100.0000       0.0000 
+
+[PUMPS]
+ 9                               1                               2                                HEAD 1
+
+[VALVES]
+
+[DEMANDS]
+ 2                                     0.000000    1
+ 3                                     9.463530    1
+ 4                                     9.463530    1
+ 5                                    12.618039    1
+ 6                                     9.463530    1
+ 7                                     0.000000    1
+
+[EMITTERS]
+
+[STATUS]
+
+[PATTERNS]
+ 1                                     0.5000       1.3000       1.0000       1.2000
+
+[CURVES]
+ 1                                    37.8540      45.7200
+
+[CONTROLS]
+ LINK 9 1.0000 AT TIME 0.0000 HOURS
+
+[QUALITY]
+
+[SOURCES]
+
+[MIXING]
+ 8                               MIXED          1.0000
+
+[REACTIONS]
+ ORDER  BULK            1.00
+ ORDER  WALL            1
+ ORDER  TANK            1.00
+ GLOBAL BULK            0.000000
+ GLOBAL WALL            0.000000
+
+[ENERGY]
+ GLOBAL EFFIC        75.0000
+ DEMAND CHARGE       0.0000
+
+[TIMES]
+ DURATION            72:00:00
+ HYDRAULIC TIMESTEP  1:00:00
+ QUALITY TIMESTEP    0:05:00
+ REPORT TIMESTEP     1:00:00
+ REPORT START        0:00:00
+ PATTERN TIMESTEP    6:00:00
+ PATTERN START       0:00:00
+ RULE TIMESTEP       0:06:00
+ START CLOCKTIME     0:00:00
+ STATISTIC           NONE
+
+[OPTIONS]
+ UNITS               LPS
+ PRESSURE            METERS
+ HEADLOSS            H-W
+ PATTERN             1
+ UNBALANCED          CONTINUE 10
+ QUALITY             NONE
+ DEMAND MULTIPLIER   1.0000
+ EMITTER EXPONENT    0.5000
+ VISCOSITY           1.000000
+ DIFFUSIVITY         1.000000
+ SPECIFIC GRAVITY    1.000000
+ TRIALS              40
+ ACCURACY            0.00001000
+ TOLERANCE           0.01000000
+ CHECKFREQ           2
+ MAXCHECK            10
+ DAMPLIMIT           0.00000000
+
+[REPORT]
+ PAGESIZE            0
+ STATUS              FULL
+ SUMMARY             NO
+ ENERGY              NO
+ MESSAGES            YES
+ NODES               NONE
+ LINKS               NONE
+ Elevation           NO
+ Demand              PRECISION 2
+ Head                PRECISION 2
+ Pressure            PRECISION 2
+ Quality             NO
+ Length              NO
+ Diameter            NO
+ Flow                PRECISION 2
+ Velocity            PRECISION 2
+ Headloss            PRECISION 2
+ Quality             NO
+ State               NO
+ Setting             NO
+ Reaction            NO
+
+
+
+[COORDINATES]
+ 2                                  1206.350000    7238.100000
+ 3                                  2309.520000    7238.100000
+ 4                                  2309.520000    6484.130000
+ 5                                  2309.520000    5730.160000
+ 6                                  3833.330000    6484.130000
+ 7                                  3833.330000    7238.100000
+ 1                                   404.760000    7238.100000
+ 8                                  5063.490000    7238.100000
+
+[TAGS]
+
+[VERTICES]
+;Link            	X-Coord         	Y-Coord
+ 7               	3000.00         	5825.40         
+ 7               	3317.46         	5976.19         
+ 7               	3611.11         	6158.73         
+ 7               	3785.71         	6333.33         
+
+[LABELS]
+;X-Coord           Y-Coord          Label & Anchor Node
+ 222.22           7595.24          "Source"                 
+ 714.29           7587.30          "PUMP"                 
+ 4912.70          7571.43          "TANK"                 
+
+[BACKDROP]
+ DIMENSIONS     	0.00            	0.00            	10000.00        	10000.00        
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+
+[END]
